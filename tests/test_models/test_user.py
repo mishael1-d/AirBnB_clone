@@ -29,7 +29,7 @@ class TestUserClass(unittest.TestCase):
         """
         self.one = User()
         self.assertEqual(self.one.first_name, "")
-        self.assertNotEqual(self.one.email, "hbnb@holberton.com")
+        self.assertNotEqual(self.one.email, "hbnb@Best.com")
         self.assertEqual(self.one.password, "")
         self.assertEqual(self.one.last_name, "")
 
